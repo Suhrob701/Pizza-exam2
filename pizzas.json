@@ -1,0 +1,84 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "title": "Чизбургер-пицца",
+      "price": 395,
+      "imageUrl": "img/chizburger.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "title": "Сырная",
+      "price": 450,
+      "imageUrl": "img/sirniy.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 1,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "title": "Креветки по-азиатски",
+      "price": 290,
+      "imageUrl": "img/krevet.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 2,
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "title": "Сырный цыпленок",
+      "price": 385,
+      "imageUrl": "img/tsiplyonok.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "title": "Чизбургер-пицца",
+      "price": 395,
+      "imageUrl": "img/pizza.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "title": "Сырная",
+      "price": 450,
+      "imageUrl": "img/sr.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 1,
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "title": "Креветки по-азиатски",
+      "price": 290,
+      "imageUrl": "img/kr.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 2,
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "title": "Сырный цыпленок",
+      "price": 385,
+      "imageUrl": "img/sr.png",
+      "sizes": [26, 30, 40],
+      "types": ["тонкое", "традиционное"],
+      "category": 0,
+      "rating": 4
+    }
+  ]
+}

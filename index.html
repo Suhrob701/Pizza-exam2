@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="logo">
+            <img src="img/kichkina.png" alt="React Pizza" />
+            <div>
+              <h1>REACT PIZZA</h1>
+              <p>самая вкусная пицца во вселенной</p>
+            </div>
+          </div>
+          <div class="cart">
+            <span id="cart-total">520 ₽</span>
+            <div class="divider"></div>
+            <span id="cart-count">3 🛒</span>
+            <button id="go-to-cart">Перейти в корзину</button>
+          </div>
+          
+        </div>
+      </header>
+      
+      <div class="container">
+        <div class="filters">
+          <button class="active">Все</button>
+          <button>Мясные</button>
+          <button>Вегетарианская</button>
+          <button>Гриль</button>
+          <button>Острые</button>
+          <button>Закрытые</button>
+        </div>
+    
+        <div class="sort">
+          <span>Сортировка по:</span>
+          <select>
+            <option>популярности</option>
+            <option>по цене</option>
+            <option>по алфавиту</option>
+          </select>
+        </div>
+
+        <h2 class="title">Все пиццы</h2>
+    <div id="pizza-container"></div>
+    <script src="main.js"></script>
+</body>
+</html>
